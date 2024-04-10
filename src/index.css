@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background: rgb(73, 111, 235);
+  color: white;
+  font-weight: bold;
+  padding: 23px;
+  border-radius: 100%;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+  background: #ffffff;
+  color: rgb(79, 79, 250);
+  transition-duration: 0.5s;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 25px;
+}
+
+/* .title{
+  font-weight: 700;
+  border: 1px solid red;
+} */
